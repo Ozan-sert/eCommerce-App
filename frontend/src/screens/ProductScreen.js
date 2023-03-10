@@ -15,7 +15,7 @@ import { addToBasket } from '../actions/basketActions';
 
 const ProductScreen = ({ history, match }) => {
 	const user = useSelector((state) => state.user);
-	const { userStatus, userInfo } = user;
+	const { userStatus } = user;
 
 	const [qty, setQty] = useState(1);
 	const [rating, setRating] = useState(0);
@@ -165,7 +165,7 @@ const ProductScreen = ({ history, match }) => {
 							<ListGroup.Item>
 								<h2>Write A Customer Review</h2>
 								{errorProductReview && <Message variant='danger'>{errorProductReview}</Message>}
-								{userInfo ? (
+								{userStatus !=='guest' ? (
 									<Form onSubmit={submitHandler}>
 										<Form.Group controlId='rating'>
 											<Form.Label>Rating</Form.Label>
