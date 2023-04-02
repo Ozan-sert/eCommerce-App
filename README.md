@@ -1,6 +1,6 @@
 # eCommerce App
 
-> eCommerce platform built with the MERN stack & Redux.
+> Full-stack e-commerce website using the MERN stack (MongoDB, Express, React, and Node.js)  & Redux to allow users to browse products, add them to cart, and place orders.
 
 ## [Live Demo](https://www.ecommerceapp.store/)
 
@@ -20,8 +20,9 @@
 - Mark orders as delivered option
 - Checkout process (shipping, payment method, etc)
 - PayPal / credit card integration
-- Database seeder (products & users)
-
+- Implemented user authentication using JSON Web Tokens (JWT).
+- Deployed the application on AWS 
+- Utilized Redux to manage application state for enhanced user experience
 ## Technologies Used
 
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
