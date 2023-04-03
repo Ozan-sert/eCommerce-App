@@ -1,6 +1,6 @@
 # eCommerce App
 
-> Full-stack e-commerce website using the MERN stack (MongoDB, Express, React, and Node.js)  & Redux to allow users to browse products, add them to cart, and place orders.
+> Full-stack e-commerce website using the MERN stack (MongoDB, Express, React, and Node.js) & Redux. It includes a user interface for customers to view and purchase products, and an admin interface for managing products and orders.
 
 ## [Live Demo](https://www.ecommerceapp.store/)
 
@@ -8,21 +8,20 @@
 
 ## Features
 
-- Full featured shopping cart
+User management and authentication
+- Customer login and registration
 - Product reviews and ratings
-- Top products carousel
-- Product pagination
+- Product catalog with search and filtering
+- Shopping cart functionality
 - Product search feature
 - User profile with orders
-- Admin product management
-- Admin user management
-- Admin Order details page
-- Mark orders as delivered option
+- Admin dashboard for managing products and orders
 - Checkout process (shipping, payment method, etc)
 - PayPal / credit card integration
 - Implemented user authentication using JSON Web Tokens (JWT).
 - Deployed the application on AWS 
 - Utilized Redux to manage application state for enhanced user experience
+
 ## Technologies Used
 
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
