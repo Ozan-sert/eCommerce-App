@@ -1,4 +1,4 @@
-# eCommerce App
+# eCommerce App - EasyShop
 
 > Full-stack e-commerce website using the MERN stack (MongoDB, Express, React, and Node.js) & Redux. It includes a user interface for customers to view and purchase products, and an admin interface for managing products and orders.
 
