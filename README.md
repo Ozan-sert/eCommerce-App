@@ -1,28 +1,36 @@
-# eCommerce App
+# eCommerce App - EasyShop
 
-> eCommerce platform built with the MERN stack & Redux.
+> Full-stack e-commerce website using the MERN stack (MongoDB, Express, React, and Node.js) & Redux. It includes a user interface for customers to view and purchase products, and an admin interface for managing products and orders.
+
+## [Live Demo](https://www.ecommerceapp.store/)
 
 ![screenshot](https://github.com/Ozan-sert/eCommerce-App/blob/main/screenshot.png)
 
 ## Features
 
-- Full featured shopping cart
+User management and authentication
+- Customer login and registration
 - Product reviews and ratings
-- Top products carousel
-- Product pagination
+- Product catalog with search and filtering
+- Shopping cart functionality
 - Product search feature
 - User profile with orders
-- Admin product management
-- Admin user management
-- Admin Order details page
-- Mark orders as delivered option
+- Admin dashboard for managing products and orders
 - Checkout process (shipping, payment method, etc)
 - PayPal / credit card integration
-- Database seeder (products & users)
+- Implemented user authentication using JSON Web Tokens (JWT).
+- Deployed the application on AWS 
+- Utilized Redux to manage application state for enhanced user experience
 
-### Technologies Used
+## Technologies Used
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="30" height="30"/> &emsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="30" height="30"/> &emsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="javascript" width="30" height="30"/> &emsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="30" height="30"/>
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
 
 ## Usage
