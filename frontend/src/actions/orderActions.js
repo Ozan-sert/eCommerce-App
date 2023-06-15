@@ -47,7 +47,7 @@ export const createOrder = (order) => async (dispatch, getState) => {
 			},
 		};
 
-		const { data } = await axios.post('/api/orders', order, config);
+		const { data } = await axios.post('https://ecommerce-app-sljq.onrender.com/api/orders', order, config);
 
 		dispatch({
 			type: ORDER_CREATE_SUCCESS,
@@ -87,7 +87,7 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
 			},
 		};
 
-		const { data } = await axios.get(`/api/orders/${id}`, config);
+		const { data } = await axios.get(`https://ecommerce-app-sljq.onrender.com/api/orders/${id}`, config);
 
 		dispatch({
 			type: ORDER_DETAILS_SUCCESS,
@@ -127,7 +127,7 @@ export const payOrder = (orderId, paymentResult) => async (dispatch, getState) =
 			},
 		};
 
-		const { data } = await axios.put(`/api/orders/${orderId}/pay`, paymentResult, config);
+		const { data } = await axios.put(`https://ecommerce-app-sljq.onrender.com/api/orders/${orderId}/pay`, paymentResult, config);
 
 		dispatch({
 			type: ORDER_PAY_SUCCESS,
@@ -166,7 +166,7 @@ export const deliverOrder = (order) => async (dispatch, getState) => {
 			},
 		};
 
-		const { data } = await axios.put(`/api/orders/${order._id}/deliver`, {}, config);
+		const { data } = await axios.put(`https://ecommerce-app-sljq.onrender.com/api/orders/${order._id}/deliver`, {}, config);
 
 		dispatch({
 			type: ORDER_DELIVER_SUCCESS,
@@ -209,7 +209,7 @@ export const listUserOrders = () => async (dispatch, getState) => {
 			},
 		};
 
-		const { data } = await axios.get('/api/orders/myorders', config);
+		const { data } = await axios.get('https://ecommerce-app-sljq.onrender.com/api/orders/myorders', config);
 
 		dispatch({
 			type: ORDER_USER_LIST_SUCCESS,
@@ -248,7 +248,7 @@ export const getOrders = () => async (dispatch, getState) => {
 			},
 		};
 
-		const { data } = await axios.get('/api/orders', config);
+		const { data } = await axios.get('https://ecommerce-app-sljq.onrender.com/api/orders', config);
 
 		dispatch({
 			type: ORDER_LIST_SUCCESS,

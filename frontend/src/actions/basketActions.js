@@ -10,7 +10,7 @@ import {
 
 // getState makes all state available to the action
 export const addToBasket = (id, qty) => async (dispatch, getState) => {
-	const { data } = await axios.get(`/api/products/${id}`);
+	const { data } = await axios.get(`https://ecommerce-app-sljq.onrender.com/api/products/${id}`);
 
 	dispatch({
 		type: BASKET_ADD_ITEM,
